@@ -1,0 +1,26 @@
+.vacansies {
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    } 
+
+    &-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: center;
+
+    }
+
+    &-list-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &-list {
+        text-align: center;
+    }
+}

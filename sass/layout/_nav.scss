@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-link {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    &-text {
+
+        color: $main-text-color;
+        font-weight: 600;
+        font-family: "Fira Sans";
+
+
+        &-span {
+            color: $main-accent-color;
+        }
+    }
+}
